@@ -1,13 +1,10 @@
 import React from 'react';
-import Counter from './component/Counter';
-import SuperMarket from './component/SuperMarket';
+import Login from 'component/Login';
 
 const App = () => {
   return (
     <>
-      <Counter />
-      <hr />
-      <SuperMarket />
+      <Login />
     </>
   );
 };

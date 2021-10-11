@@ -27,6 +27,7 @@ const ShopItemList = () => {
   const onPut = (name: string, price: number) => {
     market.put(name, price);
   };
+
   const itemList = items.map((item) => (
     <ShopItem {...item} key={item.name} onput={onPut} />
   ));
